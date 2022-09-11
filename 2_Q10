@@ -1,0 +1,26 @@
+"""
+10. Use a for loop to print a box like the one below. Allow the user to specify how wide and how
+high the box should be. [Hint: print('*'*10) prints ten asterisks.]
+"""
+
+high = eval(input("Enter how high:"))
+wide = eval(input("Enter how wide:"))
+
+for i in range(high):
+    
+     print('*'* wide)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
