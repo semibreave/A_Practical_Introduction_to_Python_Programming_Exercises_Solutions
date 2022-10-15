@@ -1,3 +1,8 @@
+"""
+13. Write a program that lets the user play Rock-Paper-Scissors against the computer. There
+should be five rounds, and after those five rounds, your program should print out who won
+and lost or that there is a tie.
+"""
 import random
 
 
