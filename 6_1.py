@@ -15,30 +15,39 @@ following:
 """
 
 string = input('Enter a string:')
-
+#a
 print('Num of char:',len(string),sep='')
 
+#b
 for i in range(10):print(string,end=' ')
 print()
 
+#c
 print('First char:',string[0])
 
+#d
 print('First 3 chars:',string[:3])
 
+#e
 print('Last 3 chars:',string[-3:])
 
+#f
 print('Reverse String:',string[::-1])
 
+#g
 if(len(string) >= 7):print('7th char:',string[6])
 else:print('Not long enough')
 
+#h
 print('1st & last char removed',string[1:(len(string) -1)])
 
+#i
 print(string.upper())
 
+#j
 print(string.replace('a','e'))
 
-
+#k
 for c in string:
     print(' ',end='')
 
