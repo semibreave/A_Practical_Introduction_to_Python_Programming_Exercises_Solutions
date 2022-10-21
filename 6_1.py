@@ -11,6 +11,7 @@ following:
 (h) The string with its first and last characters removed
 (i) The string in all caps
 (j) The string with every a replaced with an e
+(k) The string with every letter replaced by a space
 """
 
 string = input('Enter a string:')
@@ -28,7 +29,7 @@ print('Last 3 chars:',string[-3:])
 
 print('Reverse String:',string[::-1])
 
-if(len(string) >= 7):print('7th char:',string[7])
+if(len(string) >= 7):print('7th char:',string[6])
 else:print('Not long enough')
 
 print('1st & last char removed',string[1:(len(string) -1)])
@@ -36,3 +37,8 @@ print('1st & last char removed',string[1:(len(string) -1)])
 print(string.upper())
 
 print(string.replace('a','e'))
+
+
+for c in string:
+    print(' ',end='')
+
