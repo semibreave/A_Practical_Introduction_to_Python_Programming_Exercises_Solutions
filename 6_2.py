@@ -3,14 +3,21 @@
 in the string. Write a program that asks the user for a string and returns an estimate of how
 many words are in the string.
 """
+#Enhanced with unintentional spacing proof
 
 string = input('Enter a sentence:')
 
-space = 0
+stripped = string.strip()
 
-for c in string:
+space = 0
+index = -1
+
+for c in stripped:
+ index+=1
+
  if(c == ' '):
-  space += 1
-  
+  if(stripped[index + 1] != ' '):
+   space += 1
 
 print('Total words:',space + 1)
+
