@@ -25,4 +25,17 @@ if 5 in L:
 
 else:
  print('List doesnt have 5,','Num of 5:',L.count(5))
-    
+
+del L[0]
+print('Removed 1st element:',L)
+
+del L[len(L)-1]
+print('Removed last element:',L)
+
+lt5 = 0
+for i in L:
+ 
+ if (i< 5):
+    lt5 += 1
+
+print('Less than 5 int item:',lt5)
