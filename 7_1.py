@@ -20,6 +20,9 @@ L.reverse()
 print('Reversed list:',L)
    
 
+if 5 in L:
+ print('List contains 5,','Num of 5:',L.count(5))
 
-
+else:
+ print('List doesnt have 5,','Num of 5:',L.count(5))
     
